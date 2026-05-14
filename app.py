@@ -7,10 +7,6 @@ st.set_page_config(page_title="日本旅遊 RAG 助手", page_icon="🇯🇵")
 st.title("🇯🇵 日本旅遊地端 AI 助手")
 st.markdown("這是一個完全運行在你電腦上的 RAG 系統，不消耗任何 API 額度。")
 
-# 故意寫錯的代碼
-with st.sidebr: 
-   st.write("目前運行模型：Llama 3")
-   st.write("資料庫狀態：已連線")
 
 # 初始化聊天紀錄
 if "messages" not in st.session_state:
